@@ -2,6 +2,9 @@
 data/哈基米音乐和原曲对照合集/
 matched_segments/
 
+# Intermediate results (only cleaned_results.json is needed)
+results/full_results_v2.json
+
 # Build artifacts
 *.npy
 *.pyc
