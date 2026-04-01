@@ -1,0 +1,9 @@
+{
+  "round": 6,
+  "threadId": "019d4922-7479-72e1-a58e-0bb780139ac1",
+  "status": "completed",
+  "last_score": 8.5,
+  "last_verdict": "workshop accept (8.5), findings weak accept / leaning accept (7.0)",
+  "pending_experiments": ["human_validation_subset"],
+  "timestamp": "2026-04-01T23:30:00"
+}
