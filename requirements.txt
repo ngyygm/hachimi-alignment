@@ -1,0 +1,19 @@
+# Core ML
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+
+# Audio
+librosa>=0.10
+soundfile>=0.12
+
+# CLAP models
+laion-clap>=1.0
+msclap>=1.0
+
+# NLP
+sentence-transformers>=2.2
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12

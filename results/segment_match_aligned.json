@@ -1,0 +1,1772 @@
+[
+  {
+    "song": "DJ哈基米科目三小曲之一哈",
+    "hach_duration": 166.5,
+    "orig_duration": 91.3,
+    "matched_start": 14.5,
+    "matched_end": 91.31201814058957,
+    "matched_duration": 76.8,
+    "z_score": 2.47,
+    "fm_sim": 0.6322,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_DJ哈基米科目三小曲之一哈.wav",
+      "hachimi": "audio/hachimi_DJ哈基米科目三小曲之一哈.wav"
+    }
+  },
+  {
+    "song": "Despacito",
+    "hach_duration": 197.5,
+    "orig_duration": 228.8,
+    "matched_start": 0.0,
+    "matched_end": 197.5,
+    "matched_duration": 197.5,
+    "z_score": 4.64,
+    "fm_sim": 0.5812,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Despacito.wav",
+      "hachimi": "audio/hachimi_Despacito.wav"
+    }
+  },
+  {
+    "song": "Episode33",
+    "hach_duration": 132.1,
+    "orig_duration": 257.8,
+    "matched_start": 0.0,
+    "matched_end": 132.5,
+    "matched_duration": 132.5,
+    "z_score": 7.6,
+    "fm_sim": 0.9108,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Episode33.wav",
+      "hachimi": "audio/hachimi_Episode33.wav"
+    }
+  },
+  {
+    "song": "Faidherbe Square",
+    "hach_duration": 109.1,
+    "orig_duration": 207.3,
+    "matched_start": 0.0,
+    "matched_end": 109.5,
+    "matched_duration": 109.5,
+    "z_score": 7.7,
+    "fm_sim": 0.8654,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Faidherbe_Square.wav",
+      "hachimi": "audio/hachimi_Faidherbe_Square.wav"
+    }
+  },
+  {
+    "song": "Fire堵桥の小曲",
+    "hach_duration": 97.9,
+    "orig_duration": 228.5,
+    "matched_start": 73.5,
+    "matched_end": 171.5,
+    "matched_duration": 98.0,
+    "z_score": 3.81,
+    "fm_sim": 0.6663,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Fire堵桥の小曲.wav",
+      "hachimi": "audio/hachimi_Fire堵桥の小曲.wav"
+    }
+  },
+  {
+    "song": "IF YOU",
+    "hach_duration": 91.9,
+    "orig_duration": 266.2,
+    "matched_start": 104.5,
+    "matched_end": 196.5,
+    "matched_duration": 92.0,
+    "z_score": 8.86,
+    "fm_sim": 0.8988,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_IF_YOU.wav",
+      "hachimi": "audio/hachimi_IF_YOU.wav"
+    }
+  },
+  {
+    "song": "One More Night哈基米音乐",
+    "hach_duration": 148.9,
+    "orig_duration": 220.9,
+    "matched_start": 0.0,
+    "matched_end": 149.0,
+    "matched_duration": 149.0,
+    "z_score": 6.43,
+    "fm_sim": 0.7914,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_One_More_Night哈基米音乐.wav",
+      "hachimi": "audio/hachimi_One_More_Night哈基米音乐.wav"
+    }
+  },
+  {
+    "song": "Ring Ring Ring",
+    "hach_duration": 100.4,
+    "orig_duration": 228.7,
+    "matched_start": 89.0,
+    "matched_end": 189.5,
+    "matched_duration": 100.5,
+    "z_score": 2.17,
+    "fm_sim": 0.5618,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Ring_Ring_Ring.wav",
+      "hachimi": "audio/hachimi_Ring_Ring_Ring.wav"
+    }
+  },
+  {
+    "song": "R星",
+    "hach_duration": 240.1,
+    "orig_duration": 244.0,
+    "matched_start": 0.5,
+    "matched_end": 241.0,
+    "matched_duration": 240.5,
+    "z_score": 2.04,
+    "fm_sim": 0.7118,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_R星.wav",
+      "hachimi": "audio/hachimi_R星.wav"
+    }
+  },
+  {
+    "song": "Some基米 just like this",
+    "hach_duration": 134.2,
+    "orig_duration": 247.6,
+    "matched_start": 8.0,
+    "matched_end": 142.5,
+    "matched_duration": 134.5,
+    "z_score": 5.82,
+    "fm_sim": 0.7585,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Some基米_just_like_this.wav",
+      "hachimi": "audio/hachimi_Some基米_just_like_this.wav"
+    }
+  },
+  {
+    "song": "Starboy",
+    "hach_duration": 203.4,
+    "orig_duration": 181.4,
+    "matched_start": 16.0,
+    "matched_end": 181.36607709750567,
+    "matched_duration": 165.4,
+    "z_score": 2.94,
+    "fm_sim": 0.7462,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_Starboy.wav",
+      "hachimi": "audio/hachimi_Starboy.wav"
+    }
+  },
+  {
+    "song": "That Cat",
+    "hach_duration": 133.3,
+    "orig_duration": 176.8,
+    "matched_start": 23.5,
+    "matched_end": 157.0,
+    "matched_duration": 133.5,
+    "z_score": 2.56,
+    "fm_sim": 0.6719,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_That_Cat.wav",
+      "hachimi": "audio/hachimi_That_Cat.wav"
+    }
+  },
+  {
+    "song": "TheFatCat经典活全家电音之Unity",
+    "hach_duration": 62.8,
+    "orig_duration": 249.3,
+    "matched_start": 4.0,
+    "matched_end": 67.0,
+    "matched_duration": 63.0,
+    "z_score": 9.4,
+    "fm_sim": 0.8222,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_TheFatCat经典活全家电音之Unity.wav",
+      "hachimi": "audio/hachimi_TheFatCat经典活全家电音之Unity.wav"
+    }
+  },
+  {
+    "song": "WayBackHome",
+    "hach_duration": 116.5,
+    "orig_duration": 214.1,
+    "matched_start": 0.0,
+    "matched_end": 117.0,
+    "matched_duration": 117.0,
+    "z_score": 5.53,
+    "fm_sim": 0.7668,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_WayBackHome.wav",
+      "hachimi": "audio/hachimi_WayBackHome.wav"
+    }
+  },
+  {
+    "song": "What does the 大狗叫完整版",
+    "hach_duration": 195.9,
+    "orig_duration": 213.7,
+    "matched_start": 8.5,
+    "matched_end": 204.5,
+    "matched_duration": 196.0,
+    "z_score": 3.99,
+    "fm_sim": 0.7079,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_What_does_the_大狗叫完整版.wav",
+      "hachimi": "audio/hachimi_What_does_the_大狗叫完整版.wav"
+    }
+  },
+  {
+    "song": "わたしの線香",
+    "hach_duration": 151.3,
+    "orig_duration": 154.3,
+    "matched_start": 0.0,
+    "matched_end": 151.5,
+    "matched_duration": 151.5,
+    "z_score": 2.39,
+    "fm_sim": 0.7153,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_わたしの線香.wav",
+      "hachimi": "audio/hachimi_わたしの線香.wav"
+    }
+  },
+  {
+    "song": "不潮不用花钱",
+    "hach_duration": 55.2,
+    "orig_duration": 233.5,
+    "matched_start": 146.5,
+    "matched_end": 202.0,
+    "matched_duration": 55.5,
+    "z_score": 3.48,
+    "fm_sim": 0.6962,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_不潮不用花钱.wav",
+      "hachimi": "audio/hachimi_不潮不用花钱.wav"
+    }
+  },
+  {
+    "song": "以耋之名",
+    "hach_duration": 224.5,
+    "orig_duration": 342.0,
+    "matched_start": 51.5,
+    "matched_end": 276.5,
+    "matched_duration": 225.0,
+    "z_score": 7.6,
+    "fm_sim": 0.7903,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_以耋之名.wav",
+      "hachimi": "audio/hachimi_以耋之名.wav"
+    }
+  },
+  {
+    "song": "凑热闹 帽子米塔の小曲",
+    "hach_duration": 107.3,
+    "orig_duration": 242.0,
+    "matched_start": 0.0,
+    "matched_end": 107.5,
+    "matched_duration": 107.5,
+    "z_score": 8.89,
+    "fm_sim": 0.7165,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_凑热闹_帽子米塔の小曲.wav",
+      "hachimi": "audio/hachimi_凑热闹_帽子米塔の小曲.wav"
+    }
+  },
+  {
+    "song": "出山",
+    "hach_duration": 50.2,
+    "orig_duration": 200.4,
+    "matched_start": 5.5,
+    "matched_end": 56.0,
+    "matched_duration": 50.5,
+    "z_score": 4.57,
+    "fm_sim": 0.7354,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_出山.wav",
+      "hachimi": "audio/hachimi_出山.wav"
+    }
+  },
+  {
+    "song": "刚好遇基米",
+    "hach_duration": 178.0,
+    "orig_duration": 200.0,
+    "matched_start": 1.0,
+    "matched_end": 179.0,
+    "matched_duration": 178.0,
+    "z_score": 6.13,
+    "fm_sim": 0.8034,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_刚好遇基米.wav",
+      "hachimi": "audio/hachimi_刚好遇基米.wav"
+    }
+  },
+  {
+    "song": "半岛铁哈",
+    "hach_duration": 141.0,
+    "orig_duration": 319.4,
+    "matched_start": 0.0,
+    "matched_end": 141.5,
+    "matched_duration": 141.5,
+    "z_score": 6.2,
+    "fm_sim": 0.6821,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_半岛铁哈.wav",
+      "hachimi": "audio/hachimi_半岛铁哈.wav"
+    }
+  },
+  {
+    "song": "又哈了一天",
+    "hach_duration": 118.6,
+    "orig_duration": 154.6,
+    "matched_start": 2.5,
+    "matched_end": 121.5,
+    "matched_duration": 119.0,
+    "z_score": 2.24,
+    "fm_sim": 0.5711,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_又哈了一天.wav",
+      "hachimi": "audio/hachimi_又哈了一天.wav"
+    }
+  },
+  {
+    "song": "告白基米",
+    "hach_duration": 212.1,
+    "orig_duration": 215.6,
+    "matched_start": 0.0,
+    "matched_end": 212.5,
+    "matched_duration": 212.5,
+    "z_score": 2.58,
+    "fm_sim": 0.7864,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_告白基米.wav",
+      "hachimi": "audio/hachimi_告白基米.wav"
+    }
+  },
+  {
+    "song": "哈上你是我基非得米",
+    "hach_duration": 80.9,
+    "orig_duration": 274.0,
+    "matched_start": 10.5,
+    "matched_end": 91.5,
+    "matched_duration": 81.0,
+    "z_score": 10.32,
+    "fm_sim": 0.8073,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈上你是我基非得米.wav",
+      "hachimi": "audio/hachimi_哈上你是我基非得米.wav"
+    }
+  },
+  {
+    "song": "哈上月亮",
+    "hach_duration": 128.8,
+    "orig_duration": 235.1,
+    "matched_start": 75.5,
+    "matched_end": 204.5,
+    "matched_duration": 129.0,
+    "z_score": 4.52,
+    "fm_sim": 0.665,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈上月亮.wav",
+      "hachimi": "audio/hachimi_哈上月亮.wav"
+    }
+  },
+  {
+    "song": "哈基ミの消失之哈基米哈出高速神言了",
+    "hach_duration": 158.4,
+    "orig_duration": 286.7,
+    "matched_start": 25.0,
+    "matched_end": 183.5,
+    "matched_duration": 158.5,
+    "z_score": 4.57,
+    "fm_sim": 0.7754,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基ミの消失之哈基米哈出高速神言了.wav",
+      "hachimi": "audio/hachimi_哈基ミの消失之哈基米哈出高速神言了.wav"
+    }
+  },
+  {
+    "song": "哈基三郎",
+    "hach_duration": 96.5,
+    "orig_duration": 227.7,
+    "matched_start": 73.0,
+    "matched_end": 170.0,
+    "matched_duration": 97.0,
+    "z_score": 4.19,
+    "fm_sim": 0.6744,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基三郎.wav",
+      "hachimi": "audio/hachimi_哈基三郎.wav"
+    }
+  },
+  {
+    "song": "哈基不可以我想要对你哈气",
+    "hach_duration": 121.7,
+    "orig_duration": 230.9,
+    "matched_start": 1.0,
+    "matched_end": 123.0,
+    "matched_duration": 122.0,
+    "z_score": 6.34,
+    "fm_sim": 0.6865,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基不可以我想要对你哈气.wav",
+      "hachimi": "audio/hachimi_哈基不可以我想要对你哈气.wav"
+    }
+  },
+  {
+    "song": "哈基米 Closer",
+    "hach_duration": 92.0,
+    "orig_duration": 245.0,
+    "matched_start": 0.0,
+    "matched_end": 92.5,
+    "matched_duration": 92.5,
+    "z_score": 4.97,
+    "fm_sim": 0.7989,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米_Closer.wav",
+      "hachimi": "audio/hachimi_哈基米_Closer.wav"
+    }
+  },
+  {
+    "song": "哈基米 Trouble Maker",
+    "hach_duration": 113.2,
+    "orig_duration": 219.6,
+    "matched_start": 87.5,
+    "matched_end": 201.0,
+    "matched_duration": 113.5,
+    "z_score": 3.43,
+    "fm_sim": 0.6438,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米_Trouble_Maker.wav",
+      "hachimi": "audio/hachimi_哈基米_Trouble_Maker.wav"
+    }
+  },
+  {
+    "song": "哈基米Counting Stars",
+    "hach_duration": 120.4,
+    "orig_duration": 257.3,
+    "matched_start": 0.0,
+    "matched_end": 120.5,
+    "matched_duration": 120.5,
+    "z_score": 9.77,
+    "fm_sim": 0.7796,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米Counting_Stars.wav",
+      "hachimi": "audio/hachimi_哈基米Counting_Stars.wav"
+    }
+  },
+  {
+    "song": "哈基米Duvet",
+    "hach_duration": 65.4,
+    "orig_duration": 202.2,
+    "matched_start": 90.5,
+    "matched_end": 156.0,
+    "matched_duration": 65.5,
+    "z_score": 9.13,
+    "fm_sim": 0.8171,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米Duvet.wav",
+      "hachimi": "audio/hachimi_哈基米Duvet.wav"
+    }
+  },
+  {
+    "song": "哈基米也解冻了",
+    "hach_duration": 102.8,
+    "orig_duration": 202.6,
+    "matched_start": 3.0,
+    "matched_end": 106.0,
+    "matched_duration": 103.0,
+    "z_score": 5.96,
+    "fm_sim": 0.669,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米也解冻了.wav",
+      "hachimi": "audio/hachimi_哈基米也解冻了.wav"
+    }
+  },
+  {
+    "song": "哈基米尼康战歌",
+    "hach_duration": 89.9,
+    "orig_duration": 287.4,
+    "matched_start": 79.0,
+    "matched_end": 169.0,
+    "matched_duration": 90.0,
+    "z_score": 4.95,
+    "fm_sim": 0.7195,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米尼康战歌.wav",
+      "hachimi": "audio/hachimi_哈基米尼康战歌.wav"
+    }
+  },
+  {
+    "song": "哈基米弱水三千DJ版",
+    "hach_duration": 76.4,
+    "orig_duration": 506.0,
+    "matched_start": 425.5,
+    "matched_end": 502.0,
+    "matched_duration": 76.5,
+    "z_score": 2.51,
+    "fm_sim": 0.6773,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米弱水三千DJ版.wav",
+      "hachimi": "audio/hachimi_哈基米弱水三千DJ版.wav"
+    }
+  },
+  {
+    "song": "哈基米朗朗晴天完整版",
+    "hach_duration": 188.3,
+    "orig_duration": 208.6,
+    "matched_start": 0.0,
+    "matched_end": 188.5,
+    "matched_duration": 188.5,
+    "z_score": 6.01,
+    "fm_sim": 0.7373,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米朗朗晴天完整版.wav",
+      "hachimi": "audio/hachimi_哈基米朗朗晴天完整版.wav"
+    }
+  },
+  {
+    "song": "哈基米江南",
+    "hach_duration": 92.3,
+    "orig_duration": 267.9,
+    "matched_start": 28.5,
+    "matched_end": 121.0,
+    "matched_duration": 92.5,
+    "z_score": 5.27,
+    "fm_sim": 0.6191,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米江南.wav",
+      "hachimi": "audio/hachimi_哈基米江南.wav"
+    }
+  },
+  {
+    "song": "哈基米灵感菇",
+    "hach_duration": 32.5,
+    "orig_duration": 156.0,
+    "matched_start": 75.0,
+    "matched_end": 108.0,
+    "matched_duration": 33.0,
+    "z_score": 3.45,
+    "fm_sim": 0.7285,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米灵感菇.wav",
+      "hachimi": "audio/hachimi_哈基米灵感菇.wav"
+    }
+  },
+  {
+    "song": "哈基米电音 fool for you为你哈基",
+    "hach_duration": 202.6,
+    "orig_duration": 207.3,
+    "matched_start": 0.0,
+    "matched_end": 203.0,
+    "matched_duration": 203.0,
+    "z_score": 2.49,
+    "fm_sim": 0.7639,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米电音_fool_for_you为你哈基.wav",
+      "hachimi": "audio/hachimi_哈基米电音_fool_for_you为你哈基.wav"
+    }
+  },
+  {
+    "song": "哈基米登上顶点的梦该醒了",
+    "hach_duration": 99.8,
+    "orig_duration": 247.7,
+    "matched_start": 0.0,
+    "matched_end": 100.0,
+    "matched_duration": 100.0,
+    "z_score": 6.51,
+    "fm_sim": 0.7788,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米登上顶点的梦该醒了.wav",
+      "hachimi": "audio/hachimi_哈基米登上顶点的梦该醒了.wav"
+    }
+  },
+  {
+    "song": "哈基米白手水手",
+    "hach_duration": 119.1,
+    "orig_duration": 292.9,
+    "matched_start": 142.5,
+    "matched_end": 262.0,
+    "matched_duration": 119.5,
+    "z_score": 6.35,
+    "fm_sim": 0.6465,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米白手水手.wav",
+      "hachimi": "audio/hachimi_哈基米白手水手.wav"
+    }
+  },
+  {
+    "song": "哈基米白金Disco",
+    "hach_duration": 120.8,
+    "orig_duration": 255.6,
+    "matched_start": 0.5,
+    "matched_end": 121.5,
+    "matched_duration": 121.0,
+    "z_score": 9.58,
+    "fm_sim": 0.7598,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米白金Disco.wav",
+      "hachimi": "audio/hachimi_哈基米白金Disco.wav"
+    }
+  },
+  {
+    "song": "哈基米的约定",
+    "hach_duration": 143.5,
+    "orig_duration": 247.2,
+    "matched_start": 0.0,
+    "matched_end": 144.0,
+    "matched_duration": 144.0,
+    "z_score": 8.55,
+    "fm_sim": 0.7439,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米的约定.wav",
+      "hachimi": "audio/hachimi_哈基米的约定.wav"
+    }
+  },
+  {
+    "song": "哈基米群基",
+    "hach_duration": 103.1,
+    "orig_duration": 248.4,
+    "matched_start": 0.0,
+    "matched_end": 103.5,
+    "matched_duration": 103.5,
+    "z_score": 12.27,
+    "fm_sim": 0.8326,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米群基.wav",
+      "hachimi": "audio/hachimi_哈基米群基.wav"
+    }
+  },
+  {
+    "song": "哈基米这个甜蜜",
+    "hach_duration": 134.4,
+    "orig_duration": 199.5,
+    "matched_start": 1.0,
+    "matched_end": 135.5,
+    "matched_duration": 134.5,
+    "z_score": 7.03,
+    "fm_sim": 0.7217,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米这个甜蜜.wav",
+      "hachimi": "audio/hachimi_哈基米这个甜蜜.wav"
+    }
+  },
+  {
+    "song": "哈基米音乐之Tek It p01 哈基米音乐之Tek It",
+    "hach_duration": 118.3,
+    "orig_duration": 191.8,
+    "matched_start": 0.0,
+    "matched_end": 118.5,
+    "matched_duration": 118.5,
+    "z_score": 7.07,
+    "fm_sim": 0.7885,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米音乐之Tek_It_p01_哈基米音乐之Tek_It.wav",
+      "hachimi": "audio/hachimi_哈基米音乐之Tek_It_p01_哈基米音乐之Tek_It.wav"
+    }
+  },
+  {
+    "song": "哈基米音乐浪人基琶",
+    "hach_duration": 118.4,
+    "orig_duration": 224.3,
+    "matched_start": 68.0,
+    "matched_end": 186.5,
+    "matched_duration": 118.5,
+    "z_score": 7.38,
+    "fm_sim": 0.7062,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基米音乐浪人基琶.wav",
+      "hachimi": "audio/hachimi_哈基米音乐浪人基琶.wav"
+    }
+  },
+  {
+    "song": "哈基风暴",
+    "hach_duration": 62.2,
+    "orig_duration": 161.9,
+    "matched_start": 44.5,
+    "matched_end": 107.0,
+    "matched_duration": 62.5,
+    "z_score": 5.61,
+    "fm_sim": 0.7465,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈基风暴.wav",
+      "hachimi": "audio/hachimi_哈基风暴.wav"
+    }
+  },
+  {
+    "song": "哈庭雪",
+    "hach_duration": 212.3,
+    "orig_duration": 240.9,
+    "matched_start": 12.5,
+    "matched_end": 225.0,
+    "matched_duration": 212.5,
+    "z_score": 2.69,
+    "fm_sim": 0.5611,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈庭雪.wav",
+      "hachimi": "audio/hachimi_哈庭雪.wav"
+    }
+  },
+  {
+    "song": "哈气之路",
+    "hach_duration": 307.6,
+    "orig_duration": 302.1,
+    "matched_start": 0.0,
+    "matched_end": 302.1196371882086,
+    "matched_duration": 302.1,
+    "z_score": 2.36,
+    "fm_sim": 0.7196,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈气之路.wav",
+      "hachimi": "audio/hachimi_哈气之路.wav"
+    }
+  },
+  {
+    "song": "哈气阵线联盟",
+    "hach_duration": 91.6,
+    "orig_duration": 173.3,
+    "matched_start": 0.0,
+    "matched_end": 92.0,
+    "matched_duration": 92.0,
+    "z_score": 4.71,
+    "fm_sim": 0.6917,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_哈气阵线联盟.wav",
+      "hachimi": "audio/hachimi_哈气阵线联盟.wav"
+    }
+  },
+  {
+    "song": "基基宝",
+    "hach_duration": 89.3,
+    "orig_duration": 192.6,
+    "matched_start": 0.0,
+    "matched_end": 89.5,
+    "matched_duration": 89.5,
+    "z_score": 4.4,
+    "fm_sim": 0.6414,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基基宝.wav",
+      "hachimi": "audio/hachimi_基基宝.wav"
+    }
+  },
+  {
+    "song": "基溺",
+    "hach_duration": 193.1,
+    "orig_duration": 197.0,
+    "matched_start": 0.0,
+    "matched_end": 193.5,
+    "matched_duration": 193.5,
+    "z_score": 2.4,
+    "fm_sim": 0.8031,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基溺.wav",
+      "hachimi": "audio/hachimi_基溺.wav"
+    }
+  },
+  {
+    "song": "基米の镇魂歌",
+    "hach_duration": 87.8,
+    "orig_duration": 244.0,
+    "matched_start": 5.0,
+    "matched_end": 93.0,
+    "matched_duration": 88.0,
+    "z_score": 8.92,
+    "fm_sim": 0.7656,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基米の镇魂歌.wav",
+      "hachimi": "audio/hachimi_基米の镇魂歌.wav"
+    }
+  },
+  {
+    "song": "基米在寻觅绿豆在哪里",
+    "hach_duration": 95.1,
+    "orig_duration": 193.9,
+    "matched_start": 95.0,
+    "matched_end": 190.5,
+    "matched_duration": 95.5,
+    "z_score": 4.04,
+    "fm_sim": 0.6892,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基米在寻觅绿豆在哪里.wav",
+      "hachimi": "audio/hachimi_基米在寻觅绿豆在哪里.wav"
+    }
+  },
+  {
+    "song": "基米战歌Star Sky",
+    "hach_duration": 121.5,
+    "orig_duration": 330.6,
+    "matched_start": 0.5,
+    "matched_end": 122.5,
+    "matched_duration": 122.0,
+    "z_score": 6.86,
+    "fm_sim": 0.7318,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基米战歌Star_Sky.wav",
+      "hachimi": "audio/hachimi_基米战歌Star_Sky.wav"
+    }
+  },
+  {
+    "song": "基米的配方",
+    "hach_duration": 160.7,
+    "orig_duration": 222.5,
+    "matched_start": 0.0,
+    "matched_end": 161.0,
+    "matched_duration": 161.0,
+    "z_score": 4.7,
+    "fm_sim": 0.7168,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基米的配方.wav",
+      "hachimi": "audio/hachimi_基米的配方.wav"
+    }
+  },
+  {
+    "song": "基米镇",
+    "hach_duration": 77.3,
+    "orig_duration": 260.6,
+    "matched_start": 16.5,
+    "matched_end": 94.0,
+    "matched_duration": 77.5,
+    "z_score": 5.6,
+    "fm_sim": 0.6001,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_基米镇.wav",
+      "hachimi": "audio/hachimi_基米镇.wav"
+    }
+  },
+  {
+    "song": "夏日漱米",
+    "hach_duration": 96.1,
+    "orig_duration": 263.7,
+    "matched_start": 0.0,
+    "matched_end": 96.5,
+    "matched_duration": 96.5,
+    "z_score": 6.6,
+    "fm_sim": 0.8237,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_夏日漱米.wav",
+      "hachimi": "audio/hachimi_夏日漱米.wav"
+    }
+  },
+  {
+    "song": "夜曲",
+    "hach_duration": 110.9,
+    "orig_duration": 226.8,
+    "matched_start": 90.5,
+    "matched_end": 201.5,
+    "matched_duration": 111.0,
+    "z_score": 4.6,
+    "fm_sim": 0.7943,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_夜曲.wav",
+      "hachimi": "audio/hachimi_夜曲.wav"
+    }
+  },
+  {
+    "song": "大家一起哈基米",
+    "hach_duration": 87.3,
+    "orig_duration": 210.8,
+    "matched_start": 52.5,
+    "matched_end": 140.0,
+    "matched_duration": 87.5,
+    "z_score": 4.62,
+    "fm_sim": 0.7,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_大家一起哈基米.wav",
+      "hachimi": "audio/hachimi_大家一起哈基米.wav"
+    }
+  },
+  {
+    "song": "大石碎胸口",
+    "hach_duration": 99.8,
+    "orig_duration": 405.0,
+    "matched_start": 301.5,
+    "matched_end": 401.5,
+    "matched_duration": 100.0,
+    "z_score": 3.26,
+    "fm_sim": 0.6163,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_大石碎胸口.wav",
+      "hachimi": "audio/hachimi_大石碎胸口.wav"
+    }
+  },
+  {
+    "song": "套 哈 杆",
+    "hach_duration": 148.4,
+    "orig_duration": 254.0,
+    "matched_start": 97.0,
+    "matched_end": 245.5,
+    "matched_duration": 148.5,
+    "z_score": 6.54,
+    "fm_sim": 0.6848,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_套_哈_杆.wav",
+      "hachimi": "audio/hachimi_套_哈_杆.wav"
+    }
+  },
+  {
+    "song": "孤独的哈基米完整版",
+    "hach_duration": 103.9,
+    "orig_duration": 210.1,
+    "matched_start": 22.0,
+    "matched_end": 126.0,
+    "matched_duration": 104.0,
+    "z_score": 3.69,
+    "fm_sim": 0.5719,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_孤独的哈基米完整版.wav",
+      "hachimi": "audio/hachimi_孤独的哈基米完整版.wav"
+    }
+  },
+  {
+    "song": "孤高曼波",
+    "hach_duration": 132.4,
+    "orig_duration": 221.9,
+    "matched_start": 30.5,
+    "matched_end": 163.0,
+    "matched_duration": 132.5,
+    "z_score": 4.97,
+    "fm_sim": 0.6722,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_孤高曼波.wav",
+      "hachimi": "audio/hachimi_孤高曼波.wav"
+    }
+  },
+  {
+    "song": "守望先锋女团哈基米版",
+    "hach_duration": 154.9,
+    "orig_duration": 182.5,
+    "matched_start": 18.0,
+    "matched_end": 173.0,
+    "matched_duration": 155.0,
+    "z_score": 2.0,
+    "fm_sim": 0.7152,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_守望先锋女团哈基米版.wav",
+      "hachimi": "audio/hachimi_守望先锋女团哈基米版.wav"
+    }
+  },
+  {
+    "song": "山歌好比哈基米",
+    "hach_duration": 85.5,
+    "orig_duration": 218.9,
+    "matched_start": 121.5,
+    "matched_end": 207.0,
+    "matched_duration": 85.5,
+    "z_score": 8.71,
+    "fm_sim": 0.7409,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_山歌好比哈基米.wav",
+      "hachimi": "audio/hachimi_山歌好比哈基米.wav"
+    }
+  },
+  {
+    "song": "得吃の小曲",
+    "hach_duration": 117.2,
+    "orig_duration": 210.7,
+    "matched_start": 17.0,
+    "matched_end": 134.5,
+    "matched_duration": 117.5,
+    "z_score": 3.27,
+    "fm_sim": 0.556,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_得吃の小曲.wav",
+      "hachimi": "audio/hachimi_得吃の小曲.wav"
+    }
+  },
+  {
+    "song": "心乱飞",
+    "hach_duration": 96.9,
+    "orig_duration": 220.5,
+    "matched_start": 72.5,
+    "matched_end": 169.5,
+    "matched_duration": 97.0,
+    "z_score": 3.71,
+    "fm_sim": 0.5583,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_心乱飞.wav",
+      "hachimi": "audio/hachimi_心乱飞.wav"
+    }
+  },
+  {
+    "song": "怪物 Monster",
+    "hach_duration": 202.9,
+    "orig_duration": 231.3,
+    "matched_start": 25.0,
+    "matched_end": 228.0,
+    "matched_duration": 203.0,
+    "z_score": 2.39,
+    "fm_sim": 0.6707,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_怪物_Monster.wav",
+      "hachimi": "audio/hachimi_怪物_Monster.wav"
+    }
+  },
+  {
+    "song": "慢听我再哈一声",
+    "hach_duration": 153.7,
+    "orig_duration": 228.8,
+    "matched_start": 19.0,
+    "matched_end": 173.0,
+    "matched_duration": 154.0,
+    "z_score": 2.54,
+    "fm_sim": 0.6078,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_慢听我再哈一声.wav",
+      "hachimi": "audio/hachimi_慢听我再哈一声.wav"
+    }
+  },
+  {
+    "song": "我会让你成为最幸福的耄",
+    "hach_duration": 125.7,
+    "orig_duration": 218.4,
+    "matched_start": 63.5,
+    "matched_end": 189.5,
+    "matched_duration": 126.0,
+    "z_score": 4.32,
+    "fm_sim": 0.7048,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_我会让你成为最幸福的耄.wav",
+      "hachimi": "audio/hachimi_我会让你成为最幸福的耄.wav"
+    }
+  },
+  {
+    "song": "我在520哈气1314准时寄",
+    "hach_duration": 60.7,
+    "orig_duration": 159.5,
+    "matched_start": 15.5,
+    "matched_end": 76.5,
+    "matched_duration": 61.0,
+    "z_score": 2.51,
+    "fm_sim": 0.5617,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_我在520哈气1314准时寄.wav",
+      "hachimi": "audio/hachimi_我在520哈气1314准时寄.wav"
+    }
+  },
+  {
+    "song": "我在东北玩基米",
+    "hach_duration": 127.7,
+    "orig_duration": 303.1,
+    "matched_start": 3.0,
+    "matched_end": 131.0,
+    "matched_duration": 128.0,
+    "z_score": 4.39,
+    "fm_sim": 0.5899,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_我在东北玩基米.wav",
+      "hachimi": "audio/hachimi_我在东北玩基米.wav"
+    }
+  },
+  {
+    "song": "我肯定在几百年前就对你哈过气",
+    "hach_duration": 215.2,
+    "orig_duration": 292.1,
+    "matched_start": 14.5,
+    "matched_end": 230.0,
+    "matched_duration": 215.5,
+    "z_score": 4.39,
+    "fm_sim": 0.7385,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_我肯定在几百年前就对你哈过气.wav",
+      "hachimi": "audio/hachimi_我肯定在几百年前就对你哈过气.wav"
+    }
+  },
+  {
+    "song": "我要送你哈基米的爱恋",
+    "hach_duration": 78.8,
+    "orig_duration": 228.5,
+    "matched_start": 10.5,
+    "matched_end": 89.5,
+    "matched_duration": 79.0,
+    "z_score": 3.3,
+    "fm_sim": 0.7315,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_我要送你哈基米的爱恋.wav",
+      "hachimi": "audio/hachimi_我要送你哈基米的爱恋.wav"
+    }
+  },
+  {
+    "song": "打火基",
+    "hach_duration": 61.0,
+    "orig_duration": 153.8,
+    "matched_start": 89.5,
+    "matched_end": 150.5,
+    "matched_duration": 61.0,
+    "z_score": 2.59,
+    "fm_sim": 0.6276,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_打火基.wav",
+      "hachimi": "audio/hachimi_打火基.wav"
+    }
+  },
+  {
+    "song": "易燃易爆炸",
+    "hach_duration": 145.1,
+    "orig_duration": 200.3,
+    "matched_start": 0.0,
+    "matched_end": 145.5,
+    "matched_duration": 145.5,
+    "z_score": 7.81,
+    "fm_sim": 0.7978,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_易燃易爆炸.wav",
+      "hachimi": "audio/hachimi_易燃易爆炸.wav"
+    }
+  },
+  {
+    "song": "晚安大小姐",
+    "hach_duration": 66.9,
+    "orig_duration": 113.3,
+    "matched_start": 2.0,
+    "matched_end": 69.0,
+    "matched_duration": 67.0,
+    "z_score": 3.58,
+    "fm_sim": 0.6511,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_晚安大小姐.wav",
+      "hachimi": "audio/hachimi_晚安大小姐.wav"
+    }
+  },
+  {
+    "song": "曼波你身",
+    "hach_duration": 151.8,
+    "orig_duration": 217.9,
+    "matched_start": 30.5,
+    "matched_end": 182.5,
+    "matched_duration": 152.0,
+    "z_score": 2.54,
+    "fm_sim": 0.6891,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_曼波你身.wav",
+      "hachimi": "audio/hachimi_曼波你身.wav"
+    }
+  },
+  {
+    "song": "曼波时代哈Gee米",
+    "hach_duration": 63.4,
+    "orig_duration": 202.2,
+    "matched_start": 17.5,
+    "matched_end": 81.0,
+    "matched_duration": 63.5,
+    "z_score": 4.38,
+    "fm_sim": 0.6343,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_曼波时代哈Gee米.wav",
+      "hachimi": "audio/hachimi_曼波时代哈Gee米.wav"
+    }
+  },
+  {
+    "song": "最伟大的哈基米",
+    "hach_duration": 135.3,
+    "orig_duration": 244.0,
+    "matched_start": 108.5,
+    "matched_end": 244.0,
+    "matched_duration": 135.5,
+    "z_score": 7.39,
+    "fm_sim": 0.7321,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_最伟大的哈基米.wav",
+      "hachimi": "audio/hachimi_最伟大的哈基米.wav"
+    }
+  },
+  {
+    "song": "最后一哈",
+    "hach_duration": 207.0,
+    "orig_duration": 221.1,
+    "matched_start": 0.0,
+    "matched_end": 207.5,
+    "matched_duration": 207.5,
+    "z_score": 4.58,
+    "fm_sim": 0.7444,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_最后一哈.wav",
+      "hachimi": "audio/hachimi_最后一哈.wav"
+    }
+  },
+  {
+    "song": "月 光",
+    "hach_duration": 106.9,
+    "orig_duration": 272.0,
+    "matched_start": 0.0,
+    "matched_end": 107.0,
+    "matched_duration": 107.0,
+    "z_score": 10.18,
+    "fm_sim": 0.7601,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_月_光.wav",
+      "hachimi": "audio/hachimi_月_光.wav"
+    }
+  },
+  {
+    "song": "有哈不可",
+    "hach_duration": 143.7,
+    "orig_duration": 241.8,
+    "matched_start": 96.0,
+    "matched_end": 240.0,
+    "matched_duration": 144.0,
+    "z_score": 6.0,
+    "fm_sim": 0.7674,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_有哈不可.wav",
+      "hachimi": "audio/hachimi_有哈不可.wav"
+    }
+  },
+  {
+    "song": "未闻哈名我们仍未知道那",
+    "hach_duration": 131.3,
+    "orig_duration": 352.5,
+    "matched_start": 161.5,
+    "matched_end": 293.0,
+    "matched_duration": 131.5,
+    "z_score": 6.12,
+    "fm_sim": 0.7784,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_未闻哈名我们仍未知道那.wav",
+      "hachimi": "audio/hachimi_未闻哈名我们仍未知道那.wav"
+    }
+  },
+  {
+    "song": "本草基米",
+    "hach_duration": 165.1,
+    "orig_duration": 209.9,
+    "matched_start": 43.0,
+    "matched_end": 208.5,
+    "matched_duration": 165.5,
+    "z_score": 3.2,
+    "fm_sim": 0.6966,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_本草基米.wav",
+      "hachimi": "audio/hachimi_本草基米.wav"
+    }
+  },
+  {
+    "song": "杜王町小曲哈基米音乐",
+    "hach_duration": 142.3,
+    "orig_duration": 219.3,
+    "matched_start": 30.5,
+    "matched_end": 173.0,
+    "matched_duration": 142.5,
+    "z_score": 3.3,
+    "fm_sim": 0.6032,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_杜王町小曲哈基米音乐.wav",
+      "hachimi": "audio/hachimi_杜王町小曲哈基米音乐.wav"
+    }
+  },
+  {
+    "song": "柠檬树上哈基果",
+    "hach_duration": 138.4,
+    "orig_duration": 190.4,
+    "matched_start": 3.5,
+    "matched_end": 142.0,
+    "matched_duration": 138.5,
+    "z_score": 7.18,
+    "fm_sim": 0.72,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_柠檬树上哈基果.wav",
+      "hachimi": "audio/hachimi_柠檬树上哈基果.wav"
+    }
+  },
+  {
+    "song": "欧马吉利 Lose Control",
+    "hach_duration": 147.3,
+    "orig_duration": 226.7,
+    "matched_start": 0.0,
+    "matched_end": 147.5,
+    "matched_duration": 147.5,
+    "z_score": 6.09,
+    "fm_sim": 0.7229,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_欧马吉利_Lose_Control.wav",
+      "hachimi": "audio/hachimi_欧马吉利_Lose_Control.wav"
+    }
+  },
+  {
+    "song": "淋雨一激走",
+    "hach_duration": 74.1,
+    "orig_duration": 204.9,
+    "matched_start": 0.0,
+    "matched_end": 74.5,
+    "matched_duration": 74.5,
+    "z_score": 7.08,
+    "fm_sim": 0.7628,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_淋雨一激走.wav",
+      "hachimi": "audio/hachimi_淋雨一激走.wav"
+    }
+  },
+  {
+    "song": "潮基",
+    "hach_duration": 74.5,
+    "orig_duration": 168.8,
+    "matched_start": 10.5,
+    "matched_end": 85.0,
+    "matched_duration": 74.5,
+    "z_score": 3.33,
+    "fm_sim": 0.7475,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_潮基.wav",
+      "hachimi": "audio/hachimi_潮基.wav"
+    }
+  },
+  {
+    "song": "热爱105的哈基米完整版",
+    "hach_duration": 99.0,
+    "orig_duration": 195.3,
+    "matched_start": 0.5,
+    "matched_end": 100.0,
+    "matched_duration": 99.5,
+    "z_score": 5.75,
+    "fm_sim": 0.7484,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_热爱105的哈基米完整版.wav",
+      "hachimi": "audio/hachimi_热爱105的哈基米完整版.wav"
+    }
+  },
+  {
+    "song": "燃烧我的哈基米之卡基米卡路里",
+    "hach_duration": 117.3,
+    "orig_duration": 232.0,
+    "matched_start": 0.0,
+    "matched_end": 117.5,
+    "matched_duration": 117.5,
+    "z_score": 5.99,
+    "fm_sim": 0.7726,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_燃烧我的哈基米之卡基米卡路里.wav",
+      "hachimi": "audio/hachimi_燃烧我的哈基米之卡基米卡路里.wav"
+    }
+  },
+  {
+    "song": "爱猫FM之哈气怪盗团",
+    "hach_duration": 77.0,
+    "orig_duration": 262.0,
+    "matched_start": 0.0,
+    "matched_end": 77.5,
+    "matched_duration": 77.5,
+    "z_score": 6.77,
+    "fm_sim": 0.8265,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_爱猫FM之哈气怪盗团.wav",
+      "hachimi": "audio/hachimi_爱猫FM之哈气怪盗团.wav"
+    }
+  },
+  {
+    "song": "爱猫FM之基基侠基基宝也干了",
+    "hach_duration": 86.1,
+    "orig_duration": 211.3,
+    "matched_start": 54.5,
+    "matched_end": 141.0,
+    "matched_duration": 86.5,
+    "z_score": 7.15,
+    "fm_sim": 0.7038,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_爱猫FM之基基侠基基宝也干了.wav",
+      "hachimi": "audio/hachimi_爱猫FM之基基侠基基宝也干了.wav"
+    }
+  },
+  {
+    "song": "爱猫FM之神人无法抗拒的神曲猫在飞",
+    "hach_duration": 123.9,
+    "orig_duration": 243.7,
+    "matched_start": 0.0,
+    "matched_end": 124.0,
+    "matched_duration": 124.0,
+    "z_score": 5.56,
+    "fm_sim": 0.684,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_爱猫FM之神人无法抗拒的神曲猫在飞.wav",
+      "hachimi": "audio/hachimi_爱猫FM之神人无法抗拒的神曲猫在飞.wav"
+    }
+  },
+  {
+    "song": "爱猫FM之花の塔",
+    "hach_duration": 90.1,
+    "orig_duration": 275.6,
+    "matched_start": 0.0,
+    "matched_end": 90.5,
+    "matched_duration": 90.5,
+    "z_score": 7.68,
+    "fm_sim": 0.7696,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_爱猫FM之花の塔.wav",
+      "hachimi": "audio/hachimi_爱猫FM之花の塔.wav"
+    }
+  },
+  {
+    "song": "犯哈",
+    "hach_duration": 72.1,
+    "orig_duration": 196.3,
+    "matched_start": 14.0,
+    "matched_end": 86.5,
+    "matched_duration": 72.5,
+    "z_score": 6.28,
+    "fm_sim": 0.7174,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_犯哈.wav",
+      "hachimi": "audio/hachimi_犯哈.wav"
+    }
+  },
+  {
+    "song": "玫瑰少哈",
+    "hach_duration": 80.3,
+    "orig_duration": 235.3,
+    "matched_start": 0.5,
+    "matched_end": 81.0,
+    "matched_duration": 80.5,
+    "z_score": 9.75,
+    "fm_sim": 0.8268,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_玫瑰少哈.wav",
+      "hachimi": "audio/hachimi_玫瑰少哈.wav"
+    }
+  },
+  {
+    "song": "甜蜜蜜",
+    "hach_duration": 103.5,
+    "orig_duration": 211.9,
+    "matched_start": 93.5,
+    "matched_end": 197.0,
+    "matched_duration": 103.5,
+    "z_score": 5.89,
+    "fm_sim": 0.6392,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_甜蜜蜜.wav",
+      "hachimi": "audio/hachimi_甜蜜蜜.wav"
+    }
+  },
+  {
+    "song": "电击曼波",
+    "hach_duration": 72.2,
+    "orig_duration": 75.1,
+    "matched_start": 3.0,
+    "matched_end": 75.12922902494331,
+    "matched_duration": 72.1,
+    "z_score": 2.27,
+    "fm_sim": 0.714,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_电击曼波.wav",
+      "hachimi": "audio/hachimi_电击曼波.wav"
+    }
+  },
+  {
+    "song": "真正想哈的基米脸上是没有笑容的",
+    "hach_duration": 101.0,
+    "orig_duration": 148.6,
+    "matched_start": 38.0,
+    "matched_end": 139.5,
+    "matched_duration": 101.5,
+    "z_score": 2.8,
+    "fm_sim": 0.5566,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_真正想哈的基米脸上是没有笑容的.wav",
+      "hachimi": "audio/hachimi_真正想哈的基米脸上是没有笑容的.wav"
+    }
+  },
+  {
+    "song": "稻香米",
+    "hach_duration": 161.1,
+    "orig_duration": 223.5,
+    "matched_start": 4.5,
+    "matched_end": 166.0,
+    "matched_duration": 161.5,
+    "z_score": 5.06,
+    "fm_sim": 0.729,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_稻香米.wav",
+      "hachimi": "audio/hachimi_稻香米.wav"
+    }
+  },
+  {
+    "song": "突然的曼波",
+    "hach_duration": 132.4,
+    "orig_duration": 215.2,
+    "matched_start": 76.0,
+    "matched_end": 208.5,
+    "matched_duration": 132.5,
+    "z_score": 5.91,
+    "fm_sim": 0.669,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_突然的曼波.wav",
+      "hachimi": "audio/hachimi_突然的曼波.wav"
+    }
+  },
+  {
+    "song": "红日",
+    "hach_duration": 71.1,
+    "orig_duration": 287.2,
+    "matched_start": 96.5,
+    "matched_end": 168.0,
+    "matched_duration": 71.5,
+    "z_score": 5.5,
+    "fm_sim": 0.6991,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_红日.wav",
+      "hachimi": "audio/hachimi_红日.wav"
+    }
+  },
+  {
+    "song": "英雄主义",
+    "hach_duration": 89.3,
+    "orig_duration": 223.3,
+    "matched_start": 131.0,
+    "matched_end": 220.5,
+    "matched_duration": 89.5,
+    "z_score": 2.62,
+    "fm_sim": 0.5516,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_英雄主义.wav",
+      "hachimi": "audio/hachimi_英雄主义.wav"
+    }
+  },
+  {
+    "song": "蓝莲哈",
+    "hach_duration": 88.9,
+    "orig_duration": 270.5,
+    "matched_start": 0.0,
+    "matched_end": 89.0,
+    "matched_duration": 89.0,
+    "z_score": 8.91,
+    "fm_sim": 0.8354,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_蓝莲哈.wav",
+      "hachimi": "audio/hachimi_蓝莲哈.wav"
+    }
+  },
+  {
+    "song": "豪汉歌",
+    "hach_duration": 84.1,
+    "orig_duration": 189.3,
+    "matched_start": 61.5,
+    "matched_end": 146.0,
+    "matched_duration": 84.5,
+    "z_score": 7.61,
+    "fm_sim": 0.7184,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_豪汉歌.wav",
+      "hachimi": "audio/hachimi_豪汉歌.wav"
+    }
+  },
+  {
+    "song": "起哈了",
+    "hach_duration": 330.4,
+    "orig_duration": 311.5,
+    "matched_start": 16.5,
+    "matched_end": 311.48535416666664,
+    "matched_duration": 295.0,
+    "z_score": 2.17,
+    "fm_sim": 0.5815,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_起哈了.wav",
+      "hachimi": "audio/hachimi_起哈了.wav"
+    }
+  },
+  {
+    "song": "转生异世界の小曲",
+    "hach_duration": 66.9,
+    "orig_duration": 157.0,
+    "matched_start": 0.0,
+    "matched_end": 67.0,
+    "matched_duration": 67.0,
+    "z_score": 3.58,
+    "fm_sim": 0.6482,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_转生异世界の小曲.wav",
+      "hachimi": "audio/hachimi_转生异世界の小曲.wav"
+    }
+  },
+  {
+    "song": "达拉崩吧",
+    "hach_duration": 208.0,
+    "orig_duration": 245.6,
+    "matched_start": 11.0,
+    "matched_end": 219.5,
+    "matched_duration": 208.5,
+    "z_score": 2.35,
+    "fm_sim": 0.6782,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_达拉崩吧.wav",
+      "hachimi": "audio/hachimi_达拉崩吧.wav"
+    }
+  },
+  {
+    "song": "难得哈基米",
+    "hach_duration": 196.3,
+    "orig_duration": 229.9,
+    "matched_start": 24.5,
+    "matched_end": 221.0,
+    "matched_duration": 196.5,
+    "z_score": 2.43,
+    "fm_sim": 0.6773,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_难得哈基米.wav",
+      "hachimi": "audio/hachimi_难得哈基米.wav"
+    }
+  },
+  {
+    "song": "霍 全 甲",
+    "hach_duration": 115.0,
+    "orig_duration": 278.3,
+    "matched_start": 24.5,
+    "matched_end": 140.0,
+    "matched_duration": 115.5,
+    "z_score": 7.39,
+    "fm_sim": 0.7916,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_霍_全_甲.wav",
+      "hachimi": "audio/hachimi_霍_全_甲.wav"
+    }
+  },
+  {
+    "song": "青哈瓷青花瓷",
+    "hach_duration": 92.7,
+    "orig_duration": 239.3,
+    "matched_start": 0.0,
+    "matched_end": 93.0,
+    "matched_duration": 93.0,
+    "z_score": 10.95,
+    "fm_sim": 0.8348,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_青哈瓷青花瓷.wav",
+      "hachimi": "audio/hachimi_青哈瓷青花瓷.wav"
+    }
+  },
+  {
+    "song": "风哈雨",
+    "hach_duration": 125.8,
+    "orig_duration": 232.6,
+    "matched_start": 0.0,
+    "matched_end": 126.0,
+    "matched_duration": 126.0,
+    "z_score": 8.84,
+    "fm_sim": 0.8518,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_风哈雨.wav",
+      "hachimi": "audio/hachimi_风哈雨.wav"
+    }
+  },
+  {
+    "song": "黑色哈基日",
+    "hach_duration": 78.2,
+    "orig_duration": 225.7,
+    "matched_start": 21.5,
+    "matched_end": 100.0,
+    "matched_duration": 78.5,
+    "z_score": 8.19,
+    "fm_sim": 0.8276,
+    "cross_validate_agree": true,
+    "files": {
+      "original_segment": "audio/orig_segment_黑色哈基日.wav",
+      "hachimi": "audio/hachimi_黑色哈基日.wav"
+    }
+  }
+]

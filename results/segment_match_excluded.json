@@ -1,0 +1,422 @@
+[
+  {
+    "song": "Elephant Talk",
+    "reasons": [
+      "low z=1.4"
+    ]
+  },
+  {
+    "song": "HeavenAvicii哈基米音乐",
+    "reasons": [
+      "FM/Vocal disagree (diff=15.5s)"
+    ]
+  },
+  {
+    "song": "I Am You",
+    "reasons": [
+      "low z=1.5",
+      "low sim=0.508"
+    ]
+  },
+  {
+    "song": "MAGENTA POTION 哈基米药水 完整版",
+    "reasons": [
+      "FM/Vocal disagree (diff=31.0s)"
+    ]
+  },
+  {
+    "song": "MoshiMoshi",
+    "reasons": [
+      "low z=1.0"
+    ]
+  },
+  {
+    "song": "OverQuartzer",
+    "reasons": [
+      "low z=1.8"
+    ]
+  },
+  {
+    "song": "Rubia",
+    "reasons": [
+      "low z=1.0"
+    ]
+  },
+  {
+    "song": "allweknow",
+    "reasons": [
+      "low z=1.0"
+    ]
+  },
+  {
+    "song": "i walk this earth all by myself",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "scopin活全家哈基米",
+    "reasons": [
+      "low z=1.9"
+    ]
+  },
+  {
+    "song": "なでなで",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "一 键 没",
+    "reasons": [
+      "low sim=0.537"
+    ]
+  },
+  {
+    "song": "一万个哈不得",
+    "reasons": [
+      "low z=1.4"
+    ]
+  },
+  {
+    "song": "你若三东",
+    "reasons": [
+      "FM/Vocal disagree (diff=76.5s)"
+    ]
+  },
+  {
+    "song": "兰亭基序",
+    "reasons": [
+      "low sim=0.522"
+    ]
+  },
+  {
+    "song": "别在我哈气的时候说爱我",
+    "reasons": [
+      "low sim=0.458",
+      "FM/Vocal disagree (diff=41.0s)"
+    ]
+  },
+  {
+    "song": "印度基米完整",
+    "reasons": [
+      "low sim=0.520",
+      "FM/Vocal disagree (diff=41.0s)"
+    ]
+  },
+  {
+    "song": "危哈派对",
+    "reasons": [
+      "low z=1.5"
+    ]
+  },
+  {
+    "song": "压迫感の小曲",
+    "reasons": [
+      "low z=1.0"
+    ]
+  },
+  {
+    "song": "听基米的哈",
+    "reasons": [
+      "low z=1.4"
+    ]
+  },
+  {
+    "song": "哈 如 雪",
+    "reasons": [
+      "low sim=0.528",
+      "FM/Vocal disagree (diff=96.5s)"
+    ]
+  },
+  {
+    "song": "哈 气 的 巨 人",
+    "reasons": [
+      "low z=1.8"
+    ]
+  },
+  {
+    "song": "哈你是曼波的基米叮你是楼下的咚鸡",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "哈在吉米前",
+    "reasons": [
+      "low sim=0.527"
+    ]
+  },
+  {
+    "song": "哈基イカー",
+    "reasons": [
+      "low z=1.9"
+    ]
+  },
+  {
+    "song": "哈基山的基米美如水啊",
+    "reasons": [
+      "low z=1.1"
+    ]
+  },
+  {
+    "song": "哈基米I Really Want to Stay At Your House",
+    "reasons": [
+      "FM/Vocal disagree (diff=85.5s)"
+    ]
+  },
+  {
+    "song": "哈基米s on your lawn有哈基米在你的草坪上",
+    "reasons": [
+      "low z=1.3",
+      "low sim=0.482"
+    ]
+  },
+  {
+    "song": "哈基米之speed of light 五年老玩家集体泪目",
+    "reasons": [
+      "FM/Vocal disagree (diff=47.0s)"
+    ]
+  },
+  {
+    "song": "哈基米我知道",
+    "reasons": [
+      "FM/Vocal disagree (diff=87.0s)"
+    ]
+  },
+  {
+    "song": "哈基米的葬礼",
+    "reasons": [
+      "low z=1.7"
+    ]
+  },
+  {
+    "song": "哈基米的购买力有多强",
+    "reasons": [
+      "FM/Vocal disagree (diff=16.0s)"
+    ]
+  },
+  {
+    "song": "哈得太逼真",
+    "reasons": [
+      "FM/Vocal disagree (diff=127.0s)"
+    ]
+  },
+  {
+    "song": "哈无歇",
+    "reasons": [
+      "low sim=0.543",
+      "FM/Vocal disagree (diff=37.0s)"
+    ]
+  },
+  {
+    "song": "哈梅戏 基米双双把气哈",
+    "reasons": [
+      "low sim=0.471"
+    ]
+  },
+  {
+    "song": "哈气客栈",
+    "reasons": [
+      "FM/Vocal disagree (diff=32.5s)"
+    ]
+  },
+  {
+    "song": "哈的基点",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "在新年时把这个视频转发给你的朋友吧",
+    "reasons": [
+      "FM/Vocal disagree (diff=67.0s)"
+    ]
+  },
+  {
+    "song": "基卫精卫",
+    "reasons": [
+      "low z=1.9"
+    ]
+  },
+  {
+    "song": "基米music进步的小曲鸳鸯戏",
+    "reasons": [
+      "low z=1.7"
+    ]
+  },
+  {
+    "song": "基米情",
+    "reasons": [
+      "low sim=0.452",
+      "FM/Vocal disagree (diff=111.0s)"
+    ]
+  },
+  {
+    "song": "基米说",
+    "reasons": [
+      "FM/Vocal disagree (diff=30.5s)"
+    ]
+  },
+  {
+    "song": "夏天的风",
+    "reasons": [
+      "low sim=0.538",
+      "FM/Vocal disagree (diff=20.5s)"
+    ]
+  },
+  {
+    "song": "夜空中最哈的基",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "天真的基米 坚韧啊能不能放过我这一次",
+    "reasons": [
+      "FM/Vocal disagree (diff=166.0s)"
+    ]
+  },
+  {
+    "song": "小幸运",
+    "reasons": [
+      "FM/Vocal disagree (diff=109.5s)"
+    ]
+  },
+  {
+    "song": "带我去找哈吉米",
+    "reasons": [
+      "low z=1.4"
+    ]
+  },
+  {
+    "song": "我的悲伤是水做的洛天依",
+    "reasons": [
+      "low z=0.8"
+    ]
+  },
+  {
+    "song": "打上花火",
+    "reasons": [
+      "low sim=0.427"
+    ]
+  },
+  {
+    "song": "敢问路在何方",
+    "reasons": [
+      "low sim=0.521"
+    ]
+  },
+  {
+    "song": "无基转生spiral",
+    "reasons": [
+      "low z=1.5"
+    ]
+  },
+  {
+    "song": "明月天涯",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "曼波の梦灯笼",
+    "reasons": [
+      "low z=0.0"
+    ]
+  },
+  {
+    "song": "曼波之爱",
+    "reasons": [
+      "low z=1.7"
+    ]
+  },
+  {
+    "song": "曼波惹的祸",
+    "reasons": [
+      "FM/Vocal disagree (diff=27.0s)"
+    ]
+  },
+  {
+    "song": "曼波桥",
+    "reasons": [
+      "low z=1.9"
+    ]
+  },
+  {
+    "song": "活权家音乐喜羊羊与叮咚鸡",
+    "reasons": [
+      "low z=1.6"
+    ]
+  },
+  {
+    "song": "牵私人戏",
+    "reasons": [
+      "low z=1.9"
+    ]
+  },
+  {
+    "song": "粉 红 色 的 基 米",
+    "reasons": [
+      "low sim=0.477",
+      "FM/Vocal disagree (diff=20.5s)"
+    ]
+  },
+  {
+    "song": "纯净哈基米之夏日の小曲",
+    "reasons": [
+      "FM/Vocal disagree (diff=130.5s)"
+    ]
+  },
+  {
+    "song": "荣耀向我俯首",
+    "reasons": [
+      "low z=1.2",
+      "low sim=0.544"
+    ]
+  },
+  {
+    "song": "蜜雪冰城哈基米",
+    "reasons": [
+      "low z=1.0",
+      "low sim=0.476"
+    ]
+  },
+  {
+    "song": "赤佮",
+    "reasons": [
+      "low z=1.7"
+    ]
+  },
+  {
+    "song": "超哈基米超主人公",
+    "reasons": [
+      "low z=2.0"
+    ]
+  },
+  {
+    "song": "阳光曼波",
+    "reasons": [
+      "FM/Vocal disagree (diff=42.0s)"
+    ]
+  },
+  {
+    "song": "雨停之后我就会死",
+    "reasons": [
+      "FM/Vocal disagree (diff=33.0s)"
+    ]
+  },
+  {
+    "song": "青藏高原上咪",
+    "reasons": [
+      "low sim=0.536",
+      "FM/Vocal disagree (diff=18.0s)"
+    ]
+  },
+  {
+    "song": "黄基之疯处刑曲",
+    "reasons": [
+      "FM/Vocal disagree (diff=186.5s)"
+    ]
+  }
+]

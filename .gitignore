@@ -1,0 +1,37 @@
+# Data (large audio files)
+data/哈基米音乐和原曲对照合集/
+matched_segments/
+
+# Build artifacts
+*.npy
+*.pyc
+__pycache__/
+.DS_Store
+
+# LaTeX
+paper/*.aux
+paper/*.log
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/page-*.png
+
+# Environment
+.env
+.venv/
+*.egg-info/
+
+# Internal docs
+AUTO_REVIEW.md
+IDEA_REPORT.md
+EXPERIMENT_PLAN.md
+REVIEW_*.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
