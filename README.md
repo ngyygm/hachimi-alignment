@@ -1,126 +1,147 @@
-# When Meaning Dissolves: What Audio-Text Alignment Models Actually Encode
+# When Meaning Fades: Probing Acoustic Properties in Audio-Text Alignment
 
-This repository contains the code, results, and paper for our study investigating what audio-text alignment models (CLAP) actually encode, using Chinese "hachimi" (哈基米) parody songs as a natural probe.
+[Paper (PDF)](paper/main.pdf) | [Dataset (HuggingFace)](https://huggingface.co/datasets/heihei/hachimi-alignment) | [BibTeX](#citation)
+
+ACL 2025
 
 ## Overview
 
-Hachimi songs replace original meaningful lyrics with nonsense syllables ("ha-ji-mi") while preserving the melody, rhythm, and vocal timbre of the original. This creates a natural experiment: if CLAP models are truly sensitive to **semantic** content, then original lyrics should align better with audio than hachimi nonsense. Instead, we find the opposite — suggesting that acoustic and surface-level features dominate alignment scores.
+We investigate what audio-text alignment models (CLAP) actually encode, using Chinese **hachimi lyrics** (哈基米歌词) as a natural probe. Hachimi songs replace original meaningful lyrics with nonsense syllables like "ha-ji-mi" while preserving melody, instrumentation, and vocal timbre.
 
-### Key Finding
+<p align="center">
+<img src="paper/figures/fig_overview.png" width="100%">
+</p>
+
+## Key Findings
+
+**Core result:** Meaning-preserving paraphrases produce alignment **indistinguishable** from originals ($d{=}{-}0.02$, $p{=}0.82$), while nonsense hachimi lyrics achieve **higher** alignment ($d{=}{-}0.24$, $p{=}0.002$). This is consistent with semantic content contributing far less to CLAP alignment than phonological regularity.
 
 | Condition | Description | LAION CLAP | MS-CLAP |
-|-----------|-------------|:----------:|:-------:|
-| C0 | Original lyrics | 0.062 | 0.228 |
-| C8 | Paraphrased lyrics | 0.063 | 0.197 |
-| C1 | Hachimi nonsense | **0.084** | **0.253** |
+|:---:|:---|:---:|:---:|
+| **C0** | Original lyrics | 0.062 | 0.228 |
+| **C8** | Paraphrased lyrics (same meaning, different words) | 0.063 | 0.197 |
+| **C1** | Hachimi nonsense syllables | **0.084** | **0.253** |
 
-Original lyrics (C0) ≈ Paraphrases (C8) < Hachimi nonsense (C1) in both models.
+**Pattern:** C0 ≈ C8 < C1 in both models.
+
+## Results
+
+### Alignment Across Conditions (LAION CLAP)
+
+<p align="center">
+<img src="paper/figures/fig1_alignment.png" width="90%">
+</p>
+
+All 10 text conditions tested against hachimi audio (N=166 songs). Error bars: 95% bootstrap CIs. English nonsense achieves the highest alignment due to LAION CLAP's English-dominant training.
+
+### Cross-Model Comparison
+
+<p align="center">
+<img src="paper/figures/fig7_cross_model.png" width="90%">
+</p>
+
+Both CLAP variants agree: hachimi nonsense (C1) > original lyrics (C0) > paraphrases (C8). LAION CLAP cannot distinguish originals from paraphrases ($d{=}{-}0.02$).
+
+### Acoustic Analysis
+
+<p align="center">
+<img src="paper/figures/fig8_vocal_only.png" width="90%">
+</p>
+
+**Left:** Removing instruments amplifies the original < hachimi separation in LAION CLAP (full-mix $d{=}{-}0.24$ → vocal-only $d{=}{-}0.47$).
+**Right:** msCLAP shows the same direction ($d{=}{-}1.32$).
+
+**Additional findings:**
+- MFCC coefficients are the strongest alignment predictors (three survive Bonferroni correction, largest $|r|{=}0.36$)
+- ZCA whitening eliminates all alignment (max = 0.008), showing alignment depends on cross-modal correlation structure
+- Lowpass filtering *increases* alignment for Chinese text ($d{=}{-}0.54$), consistent with spectral mismatch
+
+## Method
+
+### Degeneration Spectrum
+
+We construct 10 text conditions (C0--C8) systematically varying semantic and structural integrity:
+
+| Condition | Operation | Tests |
+|:---|:---|:---|
+| C0: Original Lyrics | Original meaningful lyrics | Semantic baseline |
+| C1: Hachimi | Nonsense hachimi lyrics | Non-semantic baseline |
+| C2: Char-Shuffle | Characters scrambled within words | Orthographic cues |
+| C3: Reversed | Word segments reversed | Sequential structure |
+| C4: English Nonsense | English syllable walk | Cross-lingual phonotactics |
+| C5: Random Phonemes | Random Chinese syllables | Phonetic texture |
+| C6: Sem. Inversion | Negations in hachimi | Sem. ops on non-semantic |
+| C6b: Sem. Negation | Negations in original lyrics | Sem. ops on meaningful |
+| C8: Paraphrased Lyrics | LLM rewording, same meaning | **Semantic control** |
+
+**Critical test:** C0 and C8 share identical meaning (different words), while C1 shares surface form but no meaning.
 
 ## Dataset
 
-Audio data is hosted on HuggingFace: [heihei/hachimi-alignment](https://huggingface.co/datasets/heihei/hachimi-alignment)
-
-The dataset includes:
-- 166 paired hachimi-original song clips
-- 236 temporally matched audio segments (WAV, 22050 Hz)
-- Text conditions (C0-C8) for each song
-- Paraphrase texts for semantic control
+166 paired hachimi-original Chinese songs, including:
+- Original and hachimi MP3 recordings
+- Separated vocal and instrumental tracks
+- Temporally matched audio segments (236 WAV files, 22,050 Hz)
+- Text conditions (C0--C8) and LLM-generated paraphrases
 
 ## Setup
 
 ```bash
-# Clone the repo
+# Clone
 git clone https://github.com/ngyygm/hachimi-alignment.git
 cd hachimi-alignment
 
-# Install dependencies
+# Install
 pip install -r requirements.txt
 
 # Download audio data from HuggingFace
 pip install huggingface_hub
-huggingface-cli download heihei/hachimi-alignment --local-dir data/matched_segments
+huggingface-cli download heihei/hachimi-alignment --local-dir data
 ```
 
-### Directory Structure
+### Reproduce
 
-```
-hachimi-alignment/
-├── data/                        # Audio data (download from HF)
-│   └── 哈基米音乐和原曲对照合集/    # Original + hachimi MP3s
-├── paper/                       # LaTeX paper
-│   ├── main.tex
-│   └── figures/
-├── scripts/                     # Analysis pipeline (run in order)
-│   ├── 1_generate_paraphrases.py
-│   ├── 2_compute_alignment.py
-│   ├── 3_match_segments.py
-│   ├── 4_export_segments.py
-│   ├── 5_matched_alignment.py
-│   ├── 6_segment_analysis.py
-│   └── 7_generate_figures.py
-└── results/                     # Pre-computed results (JSON)
-```
-
-## Reproduction
-
-### Step 1: Generate paraphrases (requires MiniMax API key)
 ```bash
-export MINIMAX_API_KEY="your-key-here"
+# Step 1: Generate paraphrases (requires MINIMAX_API_KEY)
+export MINIMAX_API_KEY="your-key"
 python scripts/1_generate_paraphrases.py
-```
 
-### Step 2: Compute CLAP/msCLAP alignment
-```bash
+# Step 2: Compute CLAP/msCLAP alignment
 python scripts/2_compute_alignment.py
-# Output: results/cleaned_results.json
-```
 
-### Step 3: Match temporal segments
-```bash
+# Step 3: Match temporal segments
 python scripts/3_match_segments.py
-# Output: results/segment_match_results.json
-```
 
-### Step 4: Export matched audio segments
-```bash
+# Step 4: Export matched audio
 python scripts/4_export_segments.py
-# Output: results/segment_match_aligned.json + data/matched_segments/audio/
-```
 
-### Step 5: Compute alignment on matched segments
-```bash
+# Step 5: Alignment on matched segments
 python scripts/5_matched_alignment.py
-# Output: results/matched_segment_results.json
-```
 
-### Step 6: Run comparison experiments
-```bash
+# Step 6: Comparison experiments
 python scripts/6_segment_analysis.py
-# Output: results/comparison_experiments_results.json
-```
 
-### Step 7: Generate figures
-```bash
+# Step 7: Generate figures
 python scripts/7_generate_figures.py
-# Output: paper/figures/fig*.pdf
 ```
 
-### Compile paper
+### Compile Paper
+
 ```bash
-cd paper && xelatex main.tex
+cd paper && latexmk -xelatex main.tex
 ```
 
 ## Citation
 
 ```bibtex
 @inproceedings{author2025hachimi,
-  title={When Meaning Dissolves: What Audio-Text Alignment Models Actually Encode},
-  author={Author Name},
-  booktitle={Proceedings of ACL},
+  title={When Meaning Fades: Probing Acoustic Properties in Audio-Text Alignment},
+  author={Anonymous},
+  booktitle={Proceedings of the Association for Computational Linguistics (ACL)},
   year={2025}
 }
 ```
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT
