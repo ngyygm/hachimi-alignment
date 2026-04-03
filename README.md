@@ -1,4 +1,4 @@
-# Do CLAP Models Need Meaning? A Case Study of Chinese Lyric Perturbations
+# When Meaning Dissolves: What Audio-Text Alignment Models Actually Encode
 
 [Paper (PDF)](paper/main.pdf) | [Dataset (HuggingFace)](https://huggingface.co/datasets/heihei/hachimi-alignment) | [BibTeX](#citation)
 
@@ -259,7 +259,7 @@ cd paper && latexmk -xelatex main.tex
 
 ```bibtex
 @inproceedings{author2025hachimi,
-  title={Do {CLAP} Models Need Meaning? A Case Study of Chinese Lyric Perturbations},
+  title={When Meaning Dissolves: What Audio-Text Alignment Models Actually Encode},
   author={Anonymous},
   booktitle={Proceedings of the Association for Computational Linguistics (ACL)},
   year={2025}

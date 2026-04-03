@@ -17,7 +17,7 @@
 
 \newcommand{\ours}{\textsc{ours}}
 
-\title{Do CLAP Models Need Meaning? A Case Study of Chinese Lyric Perturbations}
+\title{When Meaning Dissolves: What Audio-Text Alignment Models Actually Encode}
 
 \author{Anonymous}
 
@@ -47,9 +47,10 @@ We test this using \emph{hachimi lyrics}~(\textrm{哈基米歌词}), a Chinese i
 To test whether semantics contribute to alignment, we introduce a meaning-preserving paraphrase condition: an LLM rewrites original lyrics using different words while preserving identical meaning. If semantics drive alignment, paraphrases should match originals (same meaning, similar alignment) and differ from nonsense (different meaning, different alignment). If surface form drives alignment, paraphrases should differ from originals (different words) but match nonsense (both Chinese text). If neither matters, all three conditions should produce indistinguishable alignment.
 
 Using 166 paired songs and a ten-condition degeneration spectrum, we measure alignment with three CLAP variants: LAION CLAP~\citep{wu2023clap} (512-dim, English-dominant training), its fused variant with cross-modal fusion layers, and Microsoft CLAP~\citep{elizalde2024msclap} (1024-dim, multilingual training). We extract 57-dimensional acoustic feature vectors to identify what influences alignment when semantics do not. Our contributions are:
-(1)~evidence that CLAP variants show \emph{model-dependent} sensitivity to lyric surface form: both LAION CLAP variants treat meaning-preserving paraphrases identically to originals (standard: $d{=}{-}0.02$, $p{=}0.82$; fused: $d{=}0.14$, $p{=}0.08$), while Microsoft CLAP does distinguish them ($d{=}0.45$), showing that paraphrase sensitivity is not universal across CLAP variants;
-(2)~evidence that all three models agree nonsense hachimi lyrics produce moderately higher alignment than originals ($d{=}{-}0.24$ to $-0.37$), and that instrumental accompaniment attenuates this pattern ($d{=}{-}0.24$ full-mix vs.\ $d{=}{-}0.47$ vocal-only in LAION CLAP);
-(3)~identification of timbre (MFCC coefficients) as the strongest acoustic alignment predictor ($|r|{=}0.26$--$0.36$), with ZCA whitening eliminating all alignment (max${=}0.008$) and spectral perturbation analysis showing results consistent with spectral content influencing CLAP alignment.
+(1)~\textbf{the first curated hachimi alignment dataset}, comprising 166 paired original--hachimi Chinese songs with ten systematically controlled text conditions and temporally matched audio segments --- to our knowledge, the first dataset to leverage naturally occurring nonsense lyrics for probing audio-text alignment;
+(2)~evidence that CLAP variants show \emph{model-dependent} sensitivity to lyric surface form: both LAION CLAP variants treat meaning-preserving paraphrases identically to originals (standard: $d{=}{-}0.02$, $p{=}0.82$; fused: $d{=}0.14$, $p{=}0.08$), while Microsoft CLAP does distinguish them ($d{=}0.45$), showing that paraphrase sensitivity is not universal across CLAP variants;
+(3)~evidence that all three models agree nonsense hachimi lyrics produce moderately higher alignment than originals ($d{=}{-}0.24$ to $-0.37$), and that instrumental accompaniment attenuates this pattern ($d{=}{-}0.24$ full-mix vs.\ $d{=}{-}0.47$ vocal-only in LAION CLAP);
+(4)~identification of timbre (MFCC coefficients) as the strongest acoustic alignment predictor ($|r|{=}0.26$--$0.36$), with ZCA whitening eliminating all alignment (max${=}0.008$) and spectral perturbation analysis showing results consistent with spectral content influencing CLAP alignment.
 
 \begin{figure*}[!t]
     \centering
