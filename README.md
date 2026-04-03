@@ -14,6 +14,10 @@ Hachimi songs replace original meaningful lyrics with nonsense syllables like "h
 <img src="paper/figures/fig_hachimi_intro.png" width="100%">
 </p>
 
+<p align="center">
+<img src="paper/figures/fig_overview.png" width="100%">
+</p>
+
 ## Key Findings
 
 **Core result:** CLAP variants show *model-dependent* sensitivity to lyric surface form. Both LAION CLAP variants treat meaning-preserving paraphrases identically to originals, while Microsoft CLAP does distinguish them. All three models agree that nonsense hachimi lyrics achieve higher alignment than original lyrics.
