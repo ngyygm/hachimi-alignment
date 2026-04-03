@@ -1,4 +1,4 @@
-# When Meaning Fades: Probing Acoustic Properties in Audio-Text Alignment
+# Do CLAP Models Need Meaning? A Case Study of Chinese Lyric Perturbations
 
 [Paper (PDF)](paper/main.pdf) | [Dataset (HuggingFace)](https://huggingface.co/datasets/heihei/hachimi-alignment) | [BibTeX](#citation)
 
@@ -6,25 +6,27 @@
 
 ## Overview
 
-We investigate what audio-text alignment models (CLAP) actually encode, using Chinese **hachimi lyrics** (哈基米歌词) as a natural probe.
+We investigate whether semantic content in text contributes to audio-text alignment, using Chinese **hachimi lyrics** (哈基米歌词) as a natural probe across **three CLAP variants**.
 
-Hachimi songs replace original meaningful lyrics with nonsense syllables like "ha-ji-mi" while preserving melody, instrumentation, and vocal timbre. This creates a natural experiment: if CLAP is truly sensitive to **semantic** content, then original lyrics should align better than nonsense. Instead, we find the opposite.
+Hachimi songs replace original meaningful lyrics with nonsense syllables like "ha-ji-mi" while preserving melody, instrumentation, and vocal timbre. This creates a natural experiment: if CLAP is truly sensitive to **semantic** content, then original lyrics should align better than nonsense. Instead, we find **model-dependent** sensitivity — preserving semantics or phonology alone is insufficient to predict alignment behavior.
 
 <p align="center">
-<img src="paper/figures/fig_overview.png" width="100%">
+<img src="paper/figures/fig_hachimi_intro.png" width="100%">
 </p>
 
 ## Key Findings
 
-**Core result:** Meaning-preserving paraphrases produce alignment **indistinguishable** from originals ($d{=}{-}0.02$, $p{=}0.82$), while nonsense hachimi lyrics achieve **higher** alignment ($d{=}{-}0.24$, $p{=}0.002$). This is consistent with semantic content contributing far less to CLAP alignment than phonological regularity.
+**Core result:** CLAP variants show *model-dependent* sensitivity to lyric surface form. Both LAION CLAP variants treat meaning-preserving paraphrases identically to originals, while Microsoft CLAP does distinguish them. All three models agree that nonsense hachimi lyrics achieve higher alignment than original lyrics.
 
-| Condition | Description | LAION CLAP | MS-CLAP |
-|:---:|:---|:---:|:---:|
-| **C0** | Original lyrics | 0.062 | 0.228 |
-| **C8** | Paraphrased lyrics (same meaning, different words) | 0.063 | 0.197 |
-| **C1** | Hachimi nonsense syllables | **0.084** | **0.253** |
+| Condition | Description | LAION CLAP | LAION-Fused | MS-CLAP |
+|:---:|:---|:---:|:---:|:---:|
+| **C0** | Original lyrics | 0.062 | 0.031 | 0.228 |
+| **C8** | Paraphrased lyrics (same meaning) | 0.063 | 0.030 | 0.197 |
+| **C1** | Hachimi nonsense syllables | **0.084** | **0.031** | **0.253** |
+| C0 vs C8 | Paraphrase effect | d=-0.02, p=0.82 | d=0.14, p=0.08 | d=0.45, p<0.001 |
+| C0 vs C1 | Hachimi advantage | d=-0.24, p=0.002 | d=-0.37, p<0.001 | d=-0.27, p<0.001 |
 
-**Pattern:** C0 ≈ C8 < C1 in both models.
+**Pattern:** Paraphrase sensitivity is model-dependent; hachimi advantage is universal across all models.
 
 <p align="center">
 <img src="paper/figures/fig_effect_sizes.png" width="55%">
@@ -61,7 +63,7 @@ All 10 text conditions tested against hachimi audio (N=166 songs). Error bars: 9
 <img src="paper/figures/fig_per_song_scatter.png" width="50%">
 </p>
 
-Each dot is one song. 63% of songs show hachimi nonsense (C1) achieving higher alignment than original lyrics (C0). The per-song C0--C1 gap correlates strongly between full-song and matched-segment analyses ($r{=}0.80$).
+Each dot is one song. 59% of songs show hachimi nonsense (C1) achieving higher alignment than original lyrics (C0). The per-song C0--C1 gap correlates strongly between full-song and matched-segment analyses ($r{=}0.80$).
 
 ### Case Studies
 
@@ -78,14 +80,39 @@ Original: *"Don't judge me as just a sheep, the grass is sweeter because of me"*
 <img src="paper/figures/fig7_cross_model.png" width="95%">
 </p>
 
-**Both CLAP variants agree** on the key finding: hachimi nonsense (C1) > original lyrics (C0) > paraphrases (C8).
+**All three CLAP variants agree** on the core finding: hachimi nonsense (C1) > original lyrics (C0).
 
 - **LAION CLAP** (512-dim, English-dominant): Cannot distinguish originals from paraphrases ($d{=}{-}0.02$, $p{=}0.82$)
-- **Microsoft CLAP** (1024-dim, multilingual): Shows moderate C0 > C8 separation ($d{=}0.45$), but this is **confounded by text-length truncation** — 62% of originals exceed the 500-char limit (mean 925 chars) vs. only 3% of paraphrases (mean 277 chars)
+- **LAION-Fused** (with cross-modal fusion): Also cannot distinguish ($d{=}0.14$, $p{=}0.08$), shows largest hachimi advantage ($d{=}{-}0.37$)
+- **Microsoft CLAP** (1024-dim, multilingual): Shows moderate C0 > C8 separation ($d{=}0.45$), confirmed via **length-matched truncation control** ($d{=}0.38$ after equalizing text length)
 
-The English nonsense dominance is LAION-specific (msCLAP: only marginally higher, $d{=}0.06$), suggesting tokenizer-level rather than semantic effects.
+The English nonsense dominance is LAION-specific (msCLAP: only marginally higher), suggesting tokenizer-level rather than semantic effects.
 
-## 3. Temporal Matching Control
+## 3. Retrieval Metrics
+
+We evaluate whether condition identity can be retrieved from audio using CLAP embeddings:
+
+| Metric | Value |
+|:---|:---:|
+| Original lyrics Recall@1 | 1.8% |
+| Original lyrics median rank | 6.0 / 9 |
+| Hachimi (C1) beats original (C0) | 59% of songs |
+| Top-1 condition | English nonsense (C4, 74%) |
+
+Original lyrics rank near the bottom (median rank 6/9), while English nonsense dominates retrieval (122/166 songs). This confirms that CLAP's alignment does not prioritize semantic content.
+
+## 4. Phonology Control: Homophone Experiment
+
+To isolate phonological from semantic effects, we replace each character with a **homophone** (same pronunciation, different meaning):
+
+| Condition | Mean Alignment | vs Original |
+|:---|:---:|:---:|
+| C0 (original) | 0.062 | — |
+| Homophone replacement | 0.051 | d=-0.27, p<0.001 |
+
+Despite preserving all phonological information (75.9% character replacement rate), homophones produce *lower* alignment than originals. This rules out pure phonological matching as the explanation and suggests orthographic familiarity or sub-word token patterns matter.
+
+## 5. Temporal Matching Control
 
 To rule out temporal misalignment as an artifact, we extract temporally matched segments using chroma cross-correlation (107 matched pairs, 64% of songs).
 
@@ -93,11 +120,11 @@ To rule out temporal misalignment as an artifact, we extract temporally matched 
 |:---|:---:|:---:|:---:|:---:|
 | Full song (LAION) | 0.062 | 0.084 | -0.24 | 0.002 |
 | Matched segments (LAION) | 0.028 | 0.052 | 0.27 | 0.006 |
-| Matched segments (msCLAP, hach audio) | — | — | -0.24 | 0.014 |
+| Matched segments (msCLAP) | — | — | -0.24 | 0.014 |
 
 The per-song C0--C1 gap correlates strongly between full-song and matched-segment analyses ($r{=}0.80$), with 81% of songs agreeing in gap direction. Segment duration does not predict the gap ($r{=}0.07$), ruling out temporal confounds.
 
-## 4. Acoustic Properties
+## 6. Acoustic Properties
 
 ### What Predicts Alignment?
 
@@ -121,7 +148,7 @@ Hachimi and original recordings share near-identical acoustic profiles (cosine =
 <img src="paper/figures/fig_whitening.png" width="80%">
 </p>
 
-ZCA whitening, which removes modality-specific covariance structure, **eliminates all alignment** for every condition (max = 0.008 vs. original max = 0.196, all $p < 10^{-13}$). This shows CLAP's alignment depends on cross-modal correlation structure rather than isotropic features.
+ZCA whitening removes modality-specific covariance structure and **eliminates all alignment** for every condition (max = 0.008 vs. original max = 0.196, all $p < 10^{-13}$). This shows CLAP's alignment depends on cross-modal correlation structure rather than isotropic features.
 
 ### Audio Perturbation
 
@@ -132,7 +159,7 @@ ZCA whitening, which removes modality-specific covariance structure, **eliminate
 Three perturbation types tested on 80 songs:
 
 - **Pitch shift / Time stretch**: No significant effect on Chinese text, but significant for English nonsense ($d{\approx}0.71$). CLAP's English-text pathway is more acoustically sensitive.
-- **Lowpass filtering**: *Increases* alignment for Chinese text ($d{=}{-}0.54$ for originals). Consistent with high-frequency spectral content introducing text-audio mismatch for Chinese; lowpass removes this mismatching component.
+- **Lowpass filtering**: *Increases* alignment for Chinese text ($d{=}{-}0.54$ for originals). Lowpass removes high-frequency spectral mismatch.
 - Modality dominance analysis shows roughly equal contribution ($|\Delta_{\text{audio}}|/|\Delta_{\text{text}}|{=}1.06$).
 
 ### Vocal-Only vs. Full-Mix
@@ -147,7 +174,7 @@ Removing instruments **amplifies** the original < hachimi separation:
 
 Instrumental accompaniment attenuates but does not reverse the pattern.
 
-## 5. Embedding Structure
+## 7. Embedding Structure
 
 Despite identical alignment behavior, original and hachimi lyrics have very different CLAP text embeddings (CKA = 0.10). Probing classifiers decode conditions well above chance:
 
@@ -165,8 +192,9 @@ CLAP achieves the lowest accuracy and poorly distinguishes original from hachimi
 - LLM-generated text descriptions may align poorly with audio even when semantically correct
 - Queries differing in phonological structure from target audio will systematically underperform
 - Text-audio retrieval may capture text-music **genre associations** rather than semantic understanding
+- Paraphrase sensitivity varies across model architectures — not all CLAP variants behave identically
 
-**Interpretation:** CLAP's text encoder is a small transformer trained via contrastive objectives, not language modeling. The probing result (71.2% vs. BERT's 90.3%) suggests CLAP never acquired robust semantic representations. Scaling up text encoders or using stronger pretraining may change the balance.
+**Interpretation:** CLAP variants show nontrivial sensitivity to lyric surface form under Chinese perturbations; this sensitivity is not reducible to meaning-preserving paraphrase effects or pure phonology preservation. Scaling up text encoders or using stronger pretraining may change the balance.
 
 ## Dataset
 
@@ -178,6 +206,7 @@ CLAP achieves the lowest accuracy and poorly distinguishes original from hachimi
 | Matched audio segments | 236 | WAV, 22,050 Hz |
 | Text conditions (C0--C8) | 166 × 10 | JSON |
 | LLM paraphrases (C8) | 165 | JSON |
+| Homophone replacements | 166 | JSON |
 
 Audio data: [huggingface.co/datasets/heihei/hachimi-alignment](https://huggingface.co/datasets/heihei/hachimi-alignment)
 
@@ -229,7 +258,7 @@ cd paper && latexmk -xelatex main.tex
 
 ```bibtex
 @inproceedings{author2025hachimi,
-  title={When Meaning Fades: Probing Acoustic Properties in Audio-Text Alignment},
+  title={Do {CLAP} Models Need Meaning? A Case Study of Chinese Lyric Perturbations},
   author={Anonymous},
   booktitle={Proceedings of the Association for Computational Linguistics (ACL)},
   year={2025}
