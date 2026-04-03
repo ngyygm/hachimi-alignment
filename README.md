@@ -10,10 +10,9 @@ We investigate whether semantic content in text contributes to audio-text alignm
 
 Hachimi songs replace original meaningful lyrics with nonsense syllables like "ha-ji-mi" while preserving melody, instrumentation, and vocal timbre. This creates a natural experiment: if CLAP is truly sensitive to **semantic** content, then original lyrics should align better than nonsense. Instead, we find **model-dependent** sensitivity — preserving semantics or phonology alone is insufficient to predict alignment behavior.
 
-<table align="center"><tr>
-<td><img src="paper/figures/fig_hachimi_intro.png" width="100%"></td>
-<td><img src="figures/ai_generated/figure_final.png" width="100%"></td>
-</tr></table>
+<p align="center">
+<img src="paper/figures/fig_hachimi_intro.png" width="100%">
+</p>
 
 ## Key Findings
 
