@@ -258,6 +258,23 @@ python scripts/7_generate_figures.py
 cd paper && latexmk -xelatex main.tex
 ```
 
+### Human Evaluation (Annotation Tool)
+
+A Flask-based web interface for human evaluation of lyric quality (semantic preservation, naturalness, singability, etc.).
+
+```bash
+# Install Flask
+pip install flask
+
+# Start annotation server
+python scripts/annotation/annotate.py --port 5000 --annotator A1
+
+# Open browser
+# http://localhost:5000
+```
+
+Features: multi-annotator support, auto-save with resume, 165 songs × 4 text variants (original / paraphrase / homophone / hachimi), 8 rating dimensions + pairwise comparison. Results saved to `annotation_results/{annotator}_annotations.json`.
+
 ## Citation
 
 ```bibtex
